@@ -17,7 +17,6 @@ function showPopup(text,duration=2000){
             }
         }
     });
-
     document.body.appendChild(popDOM.$el);
 
     setTimeout(()=>{
