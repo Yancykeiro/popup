@@ -1,26 +1,24 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <br>
-    <input v-anti-shake type="text" >
-  </div>
+
+ <div class="container">
+    <h1>全局弹窗</h1>
+    <button @click="showPopup()">打开弹窗</button>
+    <!-- <Popup/> -->
+ </div>
 </template>
 
-<script>
-import antiShake from './directive/antiShake'
 
+
+ <script>
+// import Popup from "./components/Popup.vue";
+// console.log(Popup)
 export default {
-  directives:{
-    antiShake
-  },
-  name: 'App',
-  
+ 
+   methods:{
+       showPopup(){{
+           this.$pop('弹窗内容')
+       }}
+   }
 }
-</script>
 
-<style>
-#app {
-  text-align: center;
-  margin-top: 60px;
-}
-</style>
+</script>

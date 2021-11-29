@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "commit": "git-cz",
+    "commit": "git-cz"
   },
   "config": {
     "commitizen": {
@@ -26,6 +26,8 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.3.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
